@@ -1,0 +1,78 @@
+{
+ "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+ "certificates": {
+  "CERT-FIX-001": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550101"
+  },
+  "CERT-FIX-002": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550102"
+  },
+  "CERT-FIX-003": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550103"
+  },
+  "CERT-FIX-004": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550104"
+  },
+  "CERT-FIX-005": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550105"
+  },
+  "CERT-FIX-006": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550106"
+  },
+  "CERT-FIX-007": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550107"
+  },
+  "CERT-FIX-008": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550108"
+  },
+  "CERT-FIX-009": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550109"
+  },
+  "CERT-FIX-010": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550110"
+  },
+  "CERT-FIX-011": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550111"
+  },
+  "CERT-FIX-012": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550112"
+  },
+  "CERT-FIX-013": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550113"
+  },
+  "CERT-FIX-014": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550114"
+  },
+  "CERT-FIX-015": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550115"
+  },
+  "CERT-FIX-016": {
+   "verify_status": "PASS",
+   "bound_lead_key": "5550116"
+  },
+  "CERT-BAD-001": {
+   "verify_status": "FAIL",
+   "bound_lead_key": "5550101",
+   "reason": "issuer verification failed (fixture)"
+  },
+  "CERT-OTHER-001": {
+   "verify_status": "PASS",
+   "bound_lead_key": "555019999"
+  }
+ }
+}

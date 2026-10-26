@@ -1,0 +1,2102 @@
+{
+ "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+ "count": 64,
+ "fixtures": [
+  {
+   "fixture_id": "FX-001",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 01",
+     "phones": [
+      "555-0101"
+     ],
+     "emails": [
+      "synthetic01@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "certificate_ref": "CERT-FIX-001",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-002",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 02",
+     "phones": [
+      "555-0102"
+     ],
+     "emails": [
+      "synthetic02@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "certificate_ref": "CERT-FIX-002",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-003",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 03",
+     "phones": [
+      "555-0103"
+     ],
+     "emails": [
+      "synthetic03@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "certificate_ref": "CERT-FIX-003",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-004",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 04",
+     "phones": [
+      "555-0104"
+     ],
+     "emails": [
+      "synthetic04@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [],
+    "certificate_ref": "CERT-FIX-004",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-005",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 05",
+     "phones": [
+      "555-0105"
+     ],
+     "emails": [
+      "synthetic05@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "certificate_ref": "CERT-FIX-005",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-006",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 06",
+     "phones": [
+      "555-0106"
+     ],
+     "emails": [
+      "synthetic06@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "certificate_ref": "CERT-FIX-006",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-007",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 07",
+     "phones": [
+      "555-0107"
+     ],
+     "emails": [
+      "synthetic07@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "certificate_ref": "CERT-FIX-007",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-008",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 08",
+     "phones": [
+      "555-0108"
+     ],
+     "emails": [
+      "synthetic08@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [],
+    "certificate_ref": "CERT-FIX-008",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-009",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 09",
+     "phones": [
+      "555-0109"
+     ],
+     "emails": [
+      "synthetic09@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "certificate_ref": "CERT-FIX-009",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-010",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 10",
+     "phones": [
+      "555-0110"
+     ],
+     "emails": [
+      "synthetic10@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "certificate_ref": "CERT-FIX-010",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-011",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 11",
+     "phones": [
+      "555-0111"
+     ],
+     "emails": [
+      "synthetic11@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "certificate_ref": "CERT-FIX-011",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-012",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 12",
+     "phones": [
+      "555-0112"
+     ],
+     "emails": [
+      "synthetic12@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [],
+    "certificate_ref": "CERT-FIX-012",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-013",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 13",
+     "phones": [
+      "555-0113"
+     ],
+     "emails": [
+      "synthetic13@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "certificate_ref": "CERT-FIX-013",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-014",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 14",
+     "phones": [
+      "555-0114"
+     ],
+     "emails": [
+      "synthetic14@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "certificate_ref": "CERT-FIX-014",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-015",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 15",
+     "phones": [
+      "555-0115"
+     ],
+     "emails": [
+      "synthetic15@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "certificate_ref": "CERT-FIX-015",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-016",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "CERTIFIED_CAPTURE",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 16",
+     "phones": [
+      "555-0116"
+     ],
+     "emails": [
+      "synthetic16@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [],
+    "certificate_ref": "CERT-FIX-016",
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-017",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 17",
+     "phones": [
+      "555-0117"
+     ],
+     "emails": [
+      "synthetic17@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-017"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-018",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 18",
+     "phones": [
+      "555-0118"
+     ],
+     "emails": [
+      "synthetic18@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-018"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-019",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 19",
+     "phones": [
+      "555-0119"
+     ],
+     "emails": [
+      "synthetic19@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-019"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-020",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 20",
+     "phones": [
+      "555-0120"
+     ],
+     "emails": [
+      "synthetic20@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-020"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-021",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 21",
+     "phones": [
+      "555-0121"
+     ],
+     "emails": [
+      "synthetic21@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-021"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-022",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 22",
+     "phones": [
+      "555-0122"
+     ],
+     "emails": [
+      "synthetic22@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-022"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-023",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 23",
+     "phones": [
+      "555-0123"
+     ],
+     "emails": [
+      "synthetic23@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-023"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-024",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 24",
+     "phones": [
+      "555-0124"
+     ],
+     "emails": [
+      "synthetic24@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-024"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-025",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 25",
+     "phones": [
+      "555-0125"
+     ],
+     "emails": [
+      "synthetic25@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-025"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-026",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 26",
+     "phones": [
+      "555-0126"
+     ],
+     "emails": [
+      "synthetic26@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-026"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-027",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 27",
+     "phones": [
+      "555-0127"
+     ],
+     "emails": [
+      "synthetic27@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-027"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-028",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 28",
+     "phones": [
+      "555-0128"
+     ],
+     "emails": [
+      "synthetic28@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-028"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-029",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 29",
+     "phones": [
+      "555-0129"
+     ],
+     "emails": [
+      "synthetic29@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-029"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-030",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 30",
+     "phones": [
+      "555-0130"
+     ],
+     "emails": [
+      "synthetic30@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-030"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-031",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 31",
+     "phones": [
+      "555-0131"
+     ],
+     "emails": [
+      "synthetic31@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-031"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-032",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "SELF_CAPTURED",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 32",
+     "phones": [
+      "555-0132"
+     ],
+     "emails": [
+      "synthetic32@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [],
+    "source": {
+     "kind": "OWN_FORM"
+    },
+    "capture": {
+     "surface": "web_form",
+     "disclosure_text_verbatim": "Synthetic disclosure: I agree to be contacted by seller-alpha.",
+     "disclosure_version": "synthetic-v1",
+     "form_snapshot_ref": "snapshot-032"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-033",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 33",
+     "phones": [
+      "555-0133"
+     ],
+     "emails": [
+      "synthetic33@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-034",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 34",
+     "phones": [
+      "555-0134"
+     ],
+     "emails": [
+      "synthetic34@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-035",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 35",
+     "phones": [
+      "555-0135"
+     ],
+     "emails": [
+      "synthetic35@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-036",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 36",
+     "phones": [
+      "555-0136"
+     ],
+     "emails": [
+      "synthetic36@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-037",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 37",
+     "phones": [
+      "555-0137"
+     ],
+     "emails": [
+      "synthetic37@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-038",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 38",
+     "phones": [
+      "555-0138"
+     ],
+     "emails": [
+      "synthetic38@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-039",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 39",
+     "phones": [
+      "555-0139"
+     ],
+     "emails": [
+      "synthetic39@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-040",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 40",
+     "phones": [
+      "555-0140"
+     ],
+     "emails": [
+      "synthetic40@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-041",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 41",
+     "phones": [
+      "555-0141"
+     ],
+     "emails": [
+      "synthetic41@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-042",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 42",
+     "phones": [
+      "555-0142"
+     ],
+     "emails": [
+      "synthetic42@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-043",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 43",
+     "phones": [
+      "555-0143"
+     ],
+     "emails": [
+      "synthetic43@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-044",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 44",
+     "phones": [
+      "555-0144"
+     ],
+     "emails": [
+      "synthetic44@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-045",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 45",
+     "phones": [
+      "555-0145"
+     ],
+     "emails": [
+      "synthetic45@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-046",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 46",
+     "phones": [
+      "555-0146"
+     ],
+     "emails": [
+      "synthetic46@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-047",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 47",
+     "phones": [
+      "555-0147"
+     ],
+     "emails": [
+      "synthetic47@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-048",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "VENDOR_ASSERTED",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 48",
+     "phones": [
+      "555-0148"
+     ],
+     "emails": [
+      "synthetic48@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [],
+    "source": {
+     "kind": "PORTAL_PROGRAM",
+     "vendor_name": "Synthetic Portal Co",
+     "program_name": "synthetic-program",
+     "distribution": "UNKNOWN",
+     "program_channel": "text"
+    }
+   }
+  },
+  {
+   "fixture_id": "FX-049",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 49",
+     "phones": [
+      "555-0149"
+     ],
+     "emails": [
+      "synthetic49@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-050",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 50",
+     "phones": [
+      "555-0150"
+     ],
+     "emails": [
+      "synthetic50@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-051",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 51",
+     "phones": [
+      "555-0151"
+     ],
+     "emails": [
+      "synthetic51@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-052",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 52",
+     "phones": [
+      "555-0152"
+     ],
+     "emails": [
+      "synthetic52@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "PEWC"
+     },
+     "voice": {
+      "basis": "PEWC"
+     },
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-053",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 53",
+     "phones": [
+      "555-0153"
+     ],
+     "emails": [
+      "synthetic53@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-054",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 54",
+     "phones": [
+      "555-0154"
+     ],
+     "emails": [
+      "synthetic54@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-055",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 55",
+     "phones": [
+      "555-0155"
+     ],
+     "emails": [
+      "synthetic55@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-056",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 56",
+     "phones": [
+      "555-0156"
+     ],
+     "emails": [
+      "synthetic56@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "voice": {
+      "basis": "PEWC"
+     }
+    },
+    "named_seller_set": [],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-057",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 57",
+     "phones": [
+      "555-0157"
+     ],
+     "emails": [
+      "synthetic57@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-058",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 58",
+     "phones": [
+      "555-0158"
+     ],
+     "emails": [
+      "synthetic58@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-059",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 59",
+     "phones": [
+      "555-0159"
+     ],
+     "emails": [
+      "synthetic59@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-060",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 60",
+     "phones": [
+      "555-0160"
+     ],
+     "emails": [
+      "synthetic60@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "text": {
+      "basis": "EXISTING_RELATIONSHIP_PER_PARAMS"
+     }
+    },
+    "named_seller_set": [],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-061",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "clean",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 61",
+     "phones": [
+      "555-0161"
+     ],
+     "emails": [
+      "synthetic61@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-062",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "revoke_before_send",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 62",
+     "phones": [
+      "555-0162"
+     ],
+     "emails": [
+      "synthetic62@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-063",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "dnc_after_import",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 63",
+     "phones": [
+      "555-0163"
+     ],
+     "emails": [
+      "synthetic63@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [
+     "seller-alpha"
+    ],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  },
+  {
+   "fixture_id": "FX-064",
+   "header": "SYNTHETIC \u2014 NO REAL PERSON, NO REAL CONSENT EVENT",
+   "expected_class": "LEGACY_UNVERIFIED",
+   "timeline": "named_seller_absent",
+   "intake": {
+    "identity": {
+     "name": "Synthetic Person 64",
+     "phones": [
+      "555-0164"
+     ],
+     "emails": [
+      "synthetic64@example.invalid"
+     ]
+    },
+    "channel_grants": {
+     "email": {
+      "basis": "EXPRESS"
+     }
+    },
+    "named_seller_set": [],
+    "source": {
+     "kind": "SPHERE_BOOK"
+    },
+    "evidence_note": "2019 open-house sign-in sheet (synthetic) \u2014 not PEWC for a 2026 texting campaign"
+   }
+  }
+ ]
+}
